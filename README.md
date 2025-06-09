@@ -1,2 +1,2 @@
 # DeepLearning_PJ2
-### This is code for the PJ of Deep Learning courses. The details are specified in the README.md of CIFAR_Classification and VGG_BatchNorm respectivly.
+#### This is code for the PJ of Deep Learning courses. The details are specified in the README.md of CIFAR_Classification and VGG_BatchNorm respectivly.
