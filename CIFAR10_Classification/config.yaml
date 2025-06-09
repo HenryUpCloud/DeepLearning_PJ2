@@ -1,0 +1,22 @@
+model:
+  name: cnn
+  dropout: 0.5
+  activation: relu
+  num_classes: 10
+
+training:
+  epochs: 200
+  batch_size: 64
+  learning_rate: 0.001
+  optimizer: AdamW
+  loss_function: CrossEntropy
+  
+  # momentum: 0.9           # 仅用于 SGD
+  # lr_step_size: 5         # 每 5 个 epoch 衰减一次
+  # lr_gamma: 0.5   
+  # weight_decay = 5e-5
+
+data:
+  num_workers: 2
+  normalize_mean: [0.5, 0.5, 0.5]
+  normalize_std: [0.5, 0.5, 0.5]
