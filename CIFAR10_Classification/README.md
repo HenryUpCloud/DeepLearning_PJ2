@@ -64,8 +64,8 @@ training:
   learning_rate: 0.001
   batch_size: 64
   epochs: 20
-  optimizer: Adam
-  loss_function: focal
+  optimizer: AdamW
+  loss_function: CrossEntropy
 
 data:
   num_workers: 2
